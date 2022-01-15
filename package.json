@@ -4,6 +4,9 @@
   "description": "This project is to detect profanity and take an action on it",
   "main": "index.ts",
   "scripts": {
+    "lint": "eslint --ext .ts --ignore-path .eslintignore ./src",
+    "lint:fix": "npm run lint --fix",
+    "pretty": "prettier **/*.ts --write",
     "test": "jest"
   },
   "repository": {
@@ -23,15 +26,17 @@
     "url": "https://github.com/JefferyHus/profanity/issues"
   },
   "homepage": "https://github.com/JefferyHus/profanity#readme",
-  "dependencies": {
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.16.7",
     "@types/eslint": "^8.2.2",
+    "@types/jest": "^27.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
     "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "jest": "^27.4.7",
     "prettier": "^2.5.1",
+    "ts-jest": "^27.1.3",
     "typescript": "^4.5.4"
-  },
-  "devDependencies": {
-    "@types/jest": "^27.4.0",
-    "ts-jest": "^27.1.3"
   }
 }
