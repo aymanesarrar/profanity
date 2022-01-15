@@ -14,4 +14,4 @@ To contribute:
 
 ## Reports
 
-If you found a word that should not be listed in any language/dialect, please open an issue mentionning the word.
+If you found a word that should not be listed in any language/dialect, please open an issue mentioning the word.
