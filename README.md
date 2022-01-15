@@ -11,3 +11,7 @@ To contribute:
 
 - If your language file dataset exists, you can create a new PR adding new possible bad words
 - If your language is missing please submit an issue first, after that open a PR to create the new dataset for your local language
+
+## Reports
+
+If you found a word that should not be listed in any language/dialect, please open an issue mentionning the word.
